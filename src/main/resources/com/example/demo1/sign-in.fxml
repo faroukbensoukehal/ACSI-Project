@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: background.jpg;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.SignInController">
+   <children>
+      <ImageView fitHeight="437.0" fitWidth="711.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="97.0" prefHeight="28.0" prefWidth="113.0" text="We care ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="142.0" prefHeight="28.0" prefWidth="215.0" text="about your health">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="252.0" fitWidth="323.0" layoutX="397.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@avt.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="50.0" layoutY="184.0" prefHeight="28.0" prefWidth="274.0" text="WE GIVE THE BEST SERVICES " textFill="#66c790">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" contentDisplay="CENTER" layoutX="525.0" layoutY="23.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="165.0" style="-fx-background-color: #3FBBDD;" text="Log out">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="37.0" layoutY="226.0" prefHeight="22.0" prefWidth="313.0" text="Your feedback is important to us :">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_feedback" layoutX="48.0" layoutY="262.0" prefHeight="43.0" prefWidth="379.0" />
+      <Label fx:id="label_welcome" layoutX="252.0" layoutY="27.0" prefHeight="28.0" prefWidth="302.0" text="Welcome !">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_type" layoutX="14.0" layoutY="27.0" prefHeight="28.0" prefWidth="194.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_submit" contentDisplay="CENTER" layoutX="460.0" layoutY="265.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="114.0" style="-fx-background-color: #3FBBDD;" text="Submit">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_feedback" alignment="TOP_LEFT" ellipsisString="" layoutX="42.0" layoutY="315.0" prefHeight="78.0" prefWidth="619.0" text="Yout last feedback:" textOverrun="CLIP">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
